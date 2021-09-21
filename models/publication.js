@@ -7,4 +7,4 @@ const publicationSchema = new mongoose.Schema({
   publicationDate: String,
 });
 
-module.exports = mongoose.model("PublishedBook", publicationSchema);
+module.exports = mongoose.model("Publication", publicationSchema);
